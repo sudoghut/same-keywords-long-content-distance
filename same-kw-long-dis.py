@@ -5,9 +5,6 @@ Same Keywords Long Distance Analysis
 This script analyzes news data with the same keywords to find pairs with the lowest similarity scores.
 It reads data from a SQLite database, generates embeddings using sentence transformers,
 and identifies news pairs with the same keywords but lowest content similarity.
-
-Installation:
-    pip install -r requirements.txt
 """
 
 # ==============================================================================
